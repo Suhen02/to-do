@@ -28,6 +28,6 @@ Run the development server:
 ```bash
 git clone https://github.com/Suhen02/to-do.git
 cd to-do
-
+```
 
 Hope this makes things more convenient! Let me know if you'd like any tweaks. 🎯
