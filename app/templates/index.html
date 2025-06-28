@@ -81,15 +81,11 @@
         {% else %}
         <a class="btn btn-primary w-70" style="margin-right: 60px;" href="{% url 'login' %}">Add task</a>
         {% endif%}
+        {% if user.is_authenticated %}
         <a class="btn btn-primary"  href="{% url 'display' %}">View task</a>
+        {% endif %}
       </div>
 
-      <!-- <h3>Progress Tracker</h3>
-      <div class="progress">
-          <div class="progress-bar">
-              <div class="progress-bar-inner"></div>
-          </div>
-      </div> -->
 
       <blockquote style="text-align:center; margin:20px; font-style:italic;">
           "The secret of getting ahead is getting started." - Mark Twain
